@@ -9,7 +9,6 @@ function Navbar() {
                     <div className='page-nav-content'>
                         <h1>React Filmes</h1>
                         <ul>
-                            <h2> Filmes por gênero </h2>
                             <li> <a href="/"> Ação         </a></li>
                             <li> <a href="/"> Aventura     </a></li>
                             <li> <a href="/"> Comédia      </a></li>

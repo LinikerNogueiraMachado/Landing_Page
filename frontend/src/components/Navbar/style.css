@@ -1,11 +1,7 @@
 
 .container {
-    display: flex;
-    margin: 0;
-    padding: 0;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 header span
@@ -14,6 +10,7 @@ header span
     display: block;
     position: fixed;
     top: 0;
+    color: var();
     align-items: center;
     background-color: var(--background-dark);
 }

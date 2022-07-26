@@ -2,12 +2,11 @@
 
 :root 
 {
-  --clr-text-light: #ffe4c4;
-  --clr-btn-light: ;
+  --clr-text-light: #00e1ff;
   --background-light: #ff5c5c;
-  --background-dark: #171417;
+  --background-dark: #2e2e30;
   --clr-link-light:#ff0080;
-  --clr-a-hover: #00e1ff;
+  --clr-text-shadow: #00e1ff 4px 4px 4px;
 }
 
 h1,
@@ -20,6 +19,7 @@ h5
   margin: 0;
   justify-content: center;
   text-align: center;
+  cursor: default;
 }
 
 ul
@@ -63,8 +63,7 @@ a
 
 a:hover
 {
-  color: #00ffff;
+  color:var(--clr-text-light);
   font-weight: bold;
-  text-shadow: #ffe4c4
-  3px 3px 3px;
+  text-shadow: var(--clr-text-shadow);
 }
