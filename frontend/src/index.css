@@ -6,7 +6,46 @@
   --clr-btn-light: ;
   --background-light: #ff5c5c;
   --background-dark: #171417;
-  --clr-link-light:#2bff18;
+  --clr-link-light:#ff0080;
+  --clr-a-hover: #00e1ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+li
+{
+  padding: 0;
+  margin: 0 10px 0;
+}
+
+span
+{
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: #00eeff;
+}
+
+*
+{
+  box-sizing: border-box;
+  font-family: 'Poiret One', cursive;
 }
 
 html, body 
@@ -14,11 +53,18 @@ html, body
   background-color: var(--background-dark);
   font-family: 'Poiret One', cursive;
   color: var(--clr-text-light);
-  cursor: default;
 }
 
-a, a:hover 
+a 
 {
   text-decoration: none;
   color: var(--clr-link-light);
+}
+
+a:hover
+{
+  color: #00ffff;
+  font-weight: bold;
+  text-shadow: #ffe4c4
+  3px 3px 3px;
 }
