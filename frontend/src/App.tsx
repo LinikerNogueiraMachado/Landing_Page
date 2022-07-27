@@ -8,6 +8,7 @@ import Navbar from "components/Navbar";
 import Home from 'pages/Home';
 import Listing from 'pages/Listing';
 import Form from 'pages/Fom';
+import Pagination from 'components/Navbar/Pagination';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path='/form'>
           <Route path=':movieId' element={<Form />} />
+        </Route>
+        <Route path='/Pagination'>
+          <Route path=':body' element={<Pagination />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -34,9 +34,9 @@ function Form() {
                     </div>
                     <div className="form__container--btn">
                         <button type="submit" className="btn btn--primary LandingPage--btn">Salvar</button>
+                        <button className="btn btn--primary LandingPage--btn mt-3">Cancelar</button>
                     </div>
                 </form>
-                <button className="btn btn--primary LandingPage--btn mt-3">Cancelar</button>
             </div>
         </div>
     );

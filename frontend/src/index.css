@@ -2,21 +2,21 @@
 
 /*========== # ========== configurações Globais do projeto ========== # ========== */
 
-:root 
-{
+:root {
   --clr-text-light: #00e1ff;
   --background-light: #ff5c5c;
   --background-dark: #2e2e30;
-  --clr-link-light:#ff0080;
+  --background-dark-1: #3a3a3f;
+  --clr-link-light: #ff0080;
   --clr-text-shadow: #00e1ff 4px 4px 4px;
+  --clr-btn: orangered;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5
-{
+h5 {
   padding: 0;
   margin: 0;
   justify-content: center;
@@ -24,52 +24,63 @@ h5
   cursor: default;
 }
 
-ul
-{
+ul {
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
 
-li
-{
+li {
   padding: 0;
   margin: 0 10px 0;
 }
 
-span
-{
+span {
   font-size: 2rem;
   margin: 0;
   padding: 0;
   color: #00eeff;
 }
 
-*
-{
+* {
   box-sizing: border-box;
   font-family: 'Poiret One', cursive;
 }
 
-html, body 
-{
+html,
+body {
   background-color: var(--background-dark);
   font-family: 'Poiret One', cursive;
   color: var(--clr-text-light);
 }
 
-a 
-{
+a {
   font-style: italic;
   font-weight: bold;
   text-decoration: none;
   color: var(--clr-link-light);
 }
 
-a:hover
-{
-  color:var(--clr-text-light);
+a:hover {
+  color: var(--clr-text-light);
   font-weight: bold;
   text-shadow: var(--clr-text-shadow);
+}
+
+.btn,
+.btn--primary,
+.LandingPage--btn {
+  color: var(--clr-btn);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.flip--horizontal {
+  transform: rotate(180deg);
+}
+
+form {
+  width: 100%;
+  display: flex;
 }

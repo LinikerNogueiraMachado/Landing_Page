@@ -4,15 +4,15 @@
     align-items: center;
 }
 
-header span
+header, span
 {
-    height: 60px;
-    display: block;
-    position: fixed;
     top: 0;
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid var(--clr-text-light);
     color: var();
     align-items: center;
-    background-color: var(--background-dark);
+    background: var(--background-dark-1);
 }
 
 .page-nav-content
