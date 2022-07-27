@@ -1,0 +1,28 @@
+.form__container
+{
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.form--LandingPage
+{
+    width: calc(100% - 20px);
+}
+
+.form__group
+{
+    margin-bottom: 20px;
+}
+
+.form__group
+{
+    font-size: 12px;
+    color: #aaa;
+}
+
+.form__container--btn
+{
+    display: flex;
+    justify-content: center;
+}
