@@ -1,11 +1,23 @@
-import Pagination from "components/Navbar/Pagination";
+import FilmeGraph from 'assets/img/FilmeGraph.png';
+
+import './style.css';
 
 function Home() {
 
     return (
         <>
             <h1>Home Page</h1>
-            <a href="Pagination/1"> lista completa de filmes</a>
+            <div className="container--home">
+            <a href="Listing/1"><h2>lista completa de filmes</h2></a>
+            <a href="Listing/1"><h2>lista completa de filmes</h2></a>
+            <a href="Listing/1"><h2>lista completa de filmes</h2></a>
+            <a href="Listing/1"><h2>lista completa de filmes</h2></a>
+            <a href="Listing/1"><h2>lista completa de filmes</h2></a>
+            <a href="Listing/1"><h2>lista completa de filmes</h2></a>
+            </div>
+            <div className='img__capa'>
+                <img className="img__home" src={FilmeGraph} />
+            </div>           
         </>
     );
 }

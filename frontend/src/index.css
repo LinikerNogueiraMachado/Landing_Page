@@ -9,7 +9,7 @@
   --background-dark-1: #3a3a3f;
   --clr-link-light: #ff0080;
   --clr-text-shadow: #00e1ff 4px 4px 4px;
-  --clr-btn: orangered;
+  --clr-text-btn: orangered;
 }
 
 h1,
@@ -40,7 +40,7 @@ span {
   font-size: 2rem;
   margin: 0;
   padding: 0;
-  color: #00eeff;
+  color:var(--clr-text-light);
 }
 
 * {
@@ -71,16 +71,25 @@ a:hover {
 .btn,
 .btn--primary,
 .LandingPage--btn {
-  color: var(--clr-btn);
-  font-size: 2em;
+  color: var(--clr-text-btn);
+  background-color: var(--background-dark-1);
+  font-size: 1.5em;
   font-weight: bold;
+  width: fit-content;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .flip--horizontal {
   transform: rotate(180deg);
 }
 
-form {
-  width: 100%;
-  display: flex;
+.card__container--bottom
+{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }

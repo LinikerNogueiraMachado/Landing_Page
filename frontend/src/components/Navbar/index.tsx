@@ -1,4 +1,3 @@
-import FilmesGraph from 'assets/img/FilmeGraph.png';
 import './style.css'
 
 function Navbar() {
@@ -21,6 +20,9 @@ function Navbar() {
                     </div>
                 </nav>
             </header>
+            <footer>
+                &copy; 2022 || webSite desenvolvido em React por &nbsp;<em>Liniker Nogueira Machado</em> 
+            </footer>
         </>
     );
 }

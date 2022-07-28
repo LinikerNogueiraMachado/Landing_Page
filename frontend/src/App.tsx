@@ -8,7 +8,7 @@ import Navbar from "components/Navbar";
 import Home from 'pages/Home';
 import Listing from 'pages/Listing';
 import Form from 'pages/Fom';
-import Pagination from 'components/Navbar/Pagination';
+import Pagination from 'components/Pagination';
 
 function App() {
   return (

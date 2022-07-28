@@ -1,0 +1,21 @@
+.container--home
+{
+    border-radius: 10px;
+    background-color: var(--background-dark-1);
+}
+
+.img__capa
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__home
+{
+    display: block;
+    position: relative;
+    width: 300px;
+    left: 0;
+    top: 0;
+}

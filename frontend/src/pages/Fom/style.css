@@ -1,10 +1,16 @@
-.form__container
+.form__container, img
 {
-    position: relative;
     top: -30px;
     max-width: 480px;
-    margin: 40px auto;
-    padding: 20px;
+    margin:10px auto;
+    padding: 0;
+    
+}
+
+.card__image--movie
+{
+    border-radius: 10px;
+    border: 1px solid aqua;
 }
 
 .form--LandingPage
@@ -20,9 +26,5 @@
 .form__group
 {
     margin-bottom: 20px;
-}
-
-.form__group
-{
     color: none;
 }

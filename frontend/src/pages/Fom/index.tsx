@@ -23,7 +23,7 @@ function Form() {
                         <input type="email" className="form__control" id="email" />
                     </div>
                     <div className="form__group form__group--LandingPage">
-                        <label htmlFor="score">Qual a sua avaliação? </label>
+                        <label htmlFor="score"><h2>Qual a sua avaliação?</h2></label>
                         <select className="form__control" id="score">
                             <option>1</option>
                             <option>2</option>

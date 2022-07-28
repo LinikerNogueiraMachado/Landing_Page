@@ -1,0 +1,11 @@
+.container__stars {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__stars svg {
+    fill: #f3cf06;
+    width: 22px;
+    height: auto;
+}
