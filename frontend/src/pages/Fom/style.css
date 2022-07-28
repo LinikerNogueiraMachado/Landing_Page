@@ -1,0 +1,29 @@
+.form__container, img
+{
+    max-width: 480px;
+    margin:10px auto;
+    padding: 0;
+    
+}
+
+.card__image--movie
+{
+    border-radius: 10px;
+    border: 1px solid aqua;
+}
+
+.form--LandingPage
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form__group
+{
+    margin-bottom: 20px;
+    color: none;
+}
