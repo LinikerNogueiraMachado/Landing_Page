@@ -8,21 +8,20 @@ function Listing() {
     return (
         <>
             <Pagination />
-
             <div className="row">
-                <div className="col-sm-12 col-lg-6 col-xl-4 mb-3">
+                <div className="col col-xl-6 mb-3">
                     <MovieCard />
                 </div>
-                <div className="col-sm-12 col-lg-6 col-xl-4 mb-3">
+                <div className="col col-xl-6 mb-3">
                     <MovieCard /> 
                 </div> 
-                <div className="col-sm-12 col-lg-6 col-xl-4 mb-3">
+                <div className="col col-xl-6 mb-3">
                     <MovieCard /> 
                 </div> 
-                <div className="col-sm-12 col-lg-6 col-xl-4 mb-3">
+                <div className="col col-xl-6 mb-3">
                     <MovieCard /> 
                 </div> 
-                <div className="col-sm-12 col-lg-6 col-xl-4 mb-3">
+                <div className="col col-xl-6 mb-3">
                     <MovieCard />
                 </div>
             </div>

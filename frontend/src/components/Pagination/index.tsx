@@ -9,7 +9,7 @@ function Pagination() {
                 <button className="btn__pagination" disabled={true}>
                     <Arrow className='flip--horizontal' />
                 </button>
-                <p>{`Página${1} de ${200}`}</p>
+                <p> &nbsp;{`Página ${1} de ${6}`}&nbsp;</p>
                 <button className="btn__pagination" disabled={false}>
                     <Arrow />
                 </button>

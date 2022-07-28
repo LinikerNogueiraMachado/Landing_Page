@@ -1,4 +1,5 @@
 import MovieScore from "components/MovieScore";
+import { Link } from "react-router-dom";
 
 function MovieCard() {
 
@@ -10,16 +11,19 @@ function MovieCard() {
         score: 4.5
     };
 
-    return(
+    return (
         <div className="form__container">
             <img className="card__image--movie" src={movie.image} alt={movie.title} />
             <div className="card__container--bottom">
                 <h3>{movie.title}</h3>
-                <MovieScore/>
-                <div className="btn btn--primary LandingPage--btn"> Qual sua Avaliação para este filme?</div>
+                <MovieScore />
+
+                <Link to={`/form/${movie.id}`}>
+                   <div className="btn btn--primary LandingPage--btn"><h3>Avaliar filme</h3> </div>
+                </Link>
             </div>
         </div>
-    )
+    );
 }
 
 export default MovieCard;

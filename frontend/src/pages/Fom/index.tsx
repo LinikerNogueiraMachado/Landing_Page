@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './style.css';
 
 // ======== ======== declarando objeto ======= ======= //
@@ -23,7 +24,7 @@ function Form() {
                         <input type="email" className="form__control" id="email" />
                     </div>
                     <div className="form__group form__group--LandingPage">
-                        <label htmlFor="score"><h2>Qual a sua avaliação?</h2></label>
+                        <label htmlFor="score"><h3>Qual sua Nota?</h3></label>
                         <select className="form__control" id="score">
                             <option>1</option>
                             <option>2</option>
@@ -34,9 +35,11 @@ function Form() {
                     </div>
                     <div className="form__container--btn">
                         <button type="submit" className="btn btn--primary LandingPage--btn">Salvar</button>
-                        <button className="btn btn--primary LandingPage--btn mt-3">Cancelar</button>
                     </div>
                 </form>
+                <Link to="/Listing/1">
+                    <button className="btn btn--primary LandingPage--btn mt-3">Cancelar</button>
+                </Link>
             </div>
         </div>
     );
