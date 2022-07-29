@@ -14,6 +14,16 @@
  
 # ⚜ Desenvolvimento de uma Pagina web ⚜
 
+# Projeto
+
+⚓ Home-page
+<h1> <img src="https://ik.imagekit.io/linikernogueira/home-page-react_wCaLju3QL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659124786051"/>
+</h1>
+
+⚓ Pagina de listagem
+<h1> <img src="https://ik.imagekit.io/linikernogueira/pag-listing_B59O3acNc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659124786051"/>
+</h1>
+
 # 🛠 Linguagens adotadas para este projeto:
 
 ### ✔  <img align="center" alt="Liniker-typescript" height="60" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg">
